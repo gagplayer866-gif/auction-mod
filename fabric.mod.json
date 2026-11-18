@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1, "id": "auctionmod", "version": "1.0.0", "name": "Auction Tracker",
+  "description": "Run item/block auctions from chat bids and show the top bidder on a HUD.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.auction.AuctionMod"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
